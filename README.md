@@ -1,5 +1,5 @@
-### PROYECTO INDIVIDUAL Nº2: Data Analitycs
-### Siniestros viales, Ciudad de Buenos Aires
+# PROYECTO INDIVIDUAL Nº2: Data Analitycs
+## Siniestros viales, Ciudad de Buenos Aires
 
 ![siniestro-viales-3](https://github.com/JoyceRuGu/PI2_Data_Analitycs/assets/134313088/3dc04ea5-6b27-45f7-9890-79c72c17998b)
 
