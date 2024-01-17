@@ -9,7 +9,7 @@ Los siniestros viales son situaciones graves que afectan principalmente a automo
 
 El propósito principal de este proyecto es analizar y entender los datos asociados a estos siniestros viales, con el objetivo de mejorar la seguridad y movilidad en la ciudad de Buenos Aires y evitar siniestros viales futuros. La OMSV, centro de estudios que depende de la Secretaría de Transporte del Gobierno de la Ciudad Autónoma de Buenos Aires, nos proporciona un conjunto de datos sobre homicidios en siniestros viales ocurridos en la Ciudad de Buenos Aires durante el periodo 2016-2021
 
-##### Explicación ETL (Extract, Transform, Load) para la limpieza de los conjuntos de datos suministrados:
+### Explicación ETL (Extract, Transform, Load) para la limpieza de los conjuntos de datos suministrados:
 
 Extracción:
 Se reemplazaron los valores etiquetados como 'SD' por NaN para mejorar la consistencia y facilitar el análisis. se
@@ -22,7 +22,7 @@ Carga:
 Se generaron hojas limpias y listas para la unificación y su análisis posterior.
 En resumen, estas acciones de ETL asegura que el datasets esté preparado y estandarizado, proporcionando una base sólida para análisis porteriores.
 
-##### EDA (Analísis Exploratorio de los Datos)
+### EDA (Analísis Exploratorio de los Datos)
 Después de completar el proceso de Extracción, Transformación y Carga (ETL) y generar el dataset consolidado, nos embarcamos en la fase de Análisis Exploratorio de Datos (EDA). Este paso implica sumergirse en la información detallada de los eventos desafortunados que queremos comprender a fondo.
 
 Análisis estadístico y visualización de los datos:
@@ -33,13 +33,13 @@ Análisis estadístico y visualización de los datos:
 
 . Identificación de comuna, rol, rango etario y tipos de vehiculos con mayor cantidad de fallecidos en dichos siniestros
 
-##### Dashboard
+### Dashboard
 
 ![image](https://github.com/JoyceRuGu/PI2_Data_Analitycs/assets/134313088/3ae08dda-6807-4d1b-9a8c-bcb61accfb93)
 
 Para finalizar con el proyecto, se realizo un dashboard interactivo en PowerBI para presentar el proyecto. El cual se encuentra en este mismo repositorio y se puede descargar y utilizar. Cuenta con 1 portada y 5 páginas.
 
-##### Analisis General 
+### Analisis General 
 En este análisis , aplicamos filtros tanto por año como por comuna. Esta configuración nos permite examinar los siniestros de manera detallada, segmentándolos por año, trimestre y mes. Además, hemos incluido un panel que proporciona una visión rápida de la cantidad de víctimas y siniestros por mes, junto con un resumen total de víctimas y siniestros en otro panel.
 
 ![image](https://github.com/JoyceRuGu/PI2_Data_Analitycs/assets/134313088/0504cf22-9e17-4fd0-a50a-1ed07683bdcf)
@@ -57,9 +57,9 @@ En este análisis, recurrimos a la aplicación de filtros por comuna, tipo de ca
 
 ![image](https://github.com/JoyceRuGu/PI2_Data_Analitycs/assets/134313088/3e696eac-aad3-42a2-9980-f182fad1d2c2)
 
-##### KPIS
+### KPIS
 
-### N° 1 Reducir en un 10% la tasa de homicidios en siniestros viales de los últimos seis meses, en CABA, en comparación con la tasa de homicidios en siniestros viales del semestre anterior.
+#### N° 1 Reducir en un 10% la tasa de homicidios en siniestros viales de los últimos seis meses, en CABA, en comparación con la tasa de homicidios en siniestros viales del semestre anterior.
  
 Desarrollo del primer KPI 
 Se tomaron como datos de refencia las proyecciones nacionales realizadas en CABA para el año 2021, teniendo en cuenta que la segmentación de la proyección anual es ejecutada a corte primero de julio. Se calcula la tasa de homicidio por semestres del año 2021, teniendo en cuenta el número total de la población para el semestre 1 del año 2021 y el semestre 2 del mismo año así: no. total de homicidios semestre/Población total 2021 * 100.000.
@@ -69,14 +69,14 @@ Ref https://www.indec.gob.ar/indec/web/Nivel4-Tema-2-24-84
 
 ![image](https://github.com/JoyceRuGu/PI2_Data_Analitycs/assets/134313088/6f1273da-5f0d-4e74-9d27-33f26ea543ec)
 
-### N° 2  Reducir en un 7% la cantidad de accidentes mortales de motociclistas en el último año, en CABA, respecto al año anterior.
+#### N° 2  Reducir en un 7% la cantidad de accidentes mortales de motociclistas en el último año, en CABA, respecto al año anterior.
 
 Desarrollo del segundo KPI
 Se tomaron los datos de los siniestro viales que involucraban motocicleta, se calculó el total de víctimas (moto 2021). Posteriormente, se calculó la reducción porcentual esperada (7%) con respecto a la cantidad de siniestros mortales del año anterior. Hallando la variación porcentual entre años.
 
 ![image](https://github.com/JoyceRuGu/PI2_Data_Analitycs/assets/134313088/f05cab8f-ab43-4551-a3bd-d68f903fbcbe)
 
-#### Conclusión 
+### Conclusión 
 
 
 Después de analizar los datos proporcionados por el Observatorio de Movilidad y Seguridad Vial (OMSV), podemos llegar a las siguientes conclusiones:
